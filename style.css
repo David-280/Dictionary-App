@@ -1,0 +1,38 @@
+body{
+    background-image: url(images/img.jpg);
+    background-size: cover;
+}
+
+.word-1{
+    color: white;
+}
+.button{
+    border: solid red;
+    border-radius:15px ;
+    background-color: black;
+    color: aqua;
+}
+.headtext{
+    text-decoration: underline;
+    font-family:monospace;
+}
+.meaning{
+    color:rgb(186, 228, 123);
+    font-weight: 900;
+    background-color: rgba(0, 255, 255, 0.158);
+    border-radius: 5px;
+    padding-left: 15px;
+    font-family:monospace;
+}
+.rounded{
+    border-radius: 15px;
+    height: 70px;
+}
+.pink{
+    color:#fd7e14;
+}
+hr{
+    color:white;
+    border-top: 1px solid #ccc;
+    border: 600px;
+}

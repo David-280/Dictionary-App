@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+  <div class="container mt-3 box">
+      <div class="row">
+          <h1 class="word-1">Online English Dicitionary: </h1>
+      </div>
+    <div class="row mt-3">
+        <div class="col-md-9">
+            <input type="text" id="wordInput" required placeholder="Search a Word or Phrase" class="form-control" >
+            
+        </div>
+        <div class="col-md-3">
+            <abbr title="Click here to Search Word Meaning"><button onclick="getMeaning()" class="btn btn-danger">Search</button></abbr>
+        </div>     
+    </div>
+    <div class="row  mt-3">
+       <div class="col-md-4">
+        <fieldset>
+            <legend id="headerName" class="headtext"></legend>
+            <p id="meaning" class="meaning"></p>
+        </fieldset>  
+       </div>
+    </div>
+        <div class="row mt-3">
+            <div class="col"> 
+                <h1 style="color: white;"><span class="pink">Superb</span> Online <span class="pink">Dictionary
+                </span><br> To <span class="pink">enhance</span> 
+                your learning <span class="pink">experience</span>:
+            </h1> <hr>
+                <p style="color: white;">Welcometo my <span class="pink">Online dictionary </span>
+                    Web Application Search your desired <br> word
+                     and see your desired meaning . Excellent tool for excellent <br>
+                     learners endeavour to seach your desired word to get
+                     <span class="pink">your desired meaning.</span> 
+                </p>
+            </div>
+        </div>
+    <div class="row mt-3">
+     <div class="col-md-4 col-sm-6 col-xs-12">
+        <img src="images/image 2 - Copy.jpg" alt="" class="img-fluid rounded">
+     </div>
+     <div class="col-md-4 col-sm-6 col-xs-12">
+        <img src="images\image 17 - Copy.jpg" alt="" class="img-fluid rounded">
+     </div>
+     <div class="col-md-4 col-sm-6 col-xs-12">
+        <img src="images/image 3 - Copy.jpg" alt="" class="img-fluid rounded">
+     </div>
+    </div>
+    <script src="script.js"></script>
+ </div>
+</body>
+</html>
